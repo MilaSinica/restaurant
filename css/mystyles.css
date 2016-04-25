@@ -13,6 +13,9 @@
   padding: 20px 0px;
   background-color: #028574;
 }
+.navbar-inverse .navbar-nav li > a:hover {
+    cursor: pointer;
+}
 .breadcrumb-text {
     color: #d9534f;
     text-decoration: underline;
