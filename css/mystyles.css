@@ -41,7 +41,7 @@
     color: #f2f2c4;
 }
 
-.btn-warning {
+.btn-warning, .btn-danger {
     color: #f2f2c4;;
 }
 .dropdown-header {
@@ -134,6 +134,9 @@ body {
   padding: 50px 0px 0px 0px;
   z-index: 0;
   background-color: #f2f2c4;
+}
+.modal-body, .modal-header, .modal-footer {
+    background-color: #f2f2c4;
 }
 .tab-content {
   border-bottom: 1px solid #dddddd;
