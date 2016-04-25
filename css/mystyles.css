@@ -1,73 +1,156 @@
-.row-header{
-    margin:0px auto;
-    padding:0px auto;
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px;
 }
-
 .row-content {
-    margin:0px auto;
-    padding: 50px 0px 50px 0px;
-    border-bottom: 1px ridge;
-    min-height:400px;
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
 }
-
-.row-footer{
-    background-color: #AfAfAf;
-    margin:0px auto;
-    padding: 20px 0px 20px 0px;
+.row-footer {
+  margin: 0px auto;
+  padding: 20px 0px;
+  background-color: #028574;
 }
-
+.breadcrumb-text {
+    color: #d9534f;
+    text-decoration: underline;
+}
+#map {
+    width: 500px;
+    height: 200px;
+    background-color: #CCC;
+}
 .jumbotron {
-    padding:70px 30px 70px 30px;
-    margin:0px auto;
-    background: #7986CB ;
-    color:floralwhite;
+  margin: 0px auto;
+  padding: 70px 30px;
+  background: #028574;
+  color: #f2f2c4;
+}
+.nav-pills>li.active>a, 
+.nav-pills>li.active>a:focus, 
+.nav-pills>li.active>a:hover,
+.nav-tabs>li.active>a, 
+.nav-tabs>li.active>a:focus, 
+.nav-tabs>li.active>a:hover {
+    background-color: #d9534f;
+    color: #f2f2c4;
 }
 
-address{
-    font-size:80%;
-    margin:0px;
-    color:#0f0f0f;
+.btn-warning {
+    color: #f2f2c4;;
 }
-body{
-    padding:50px 0px 0px 0px;
-    z-index:0;
+.dropdown-header {
+    color: #f2d2c4;
+}
+.breadcrumb { 
+    background-color: transparent;
+}
+.panel-heading {
+    background-color: #028574;
+    color: #f2f2c4;;
 }
 
+.carousel-caption {
+    margin-left: 100px;
+    margin-right: -100px;
+}
+.carousel {
+  background: #d9534f;
+}
+.carousel .item {
+  height: 300px;
+}
+.carousel .item img {
+  left: 0;
+  max-height: 300px;
+  position: absolute;
+  top: 0;
+}
+.img-thumbnail {
+    max-height: 200px;
+}
+.navbar-brand > img{
+    width: 40px;
+    margin-top: -10px;
+}
 .navbar-inverse {
-     background: #303F9F;
+  background: #d9534f;
+  color: #f2f2c4;
 }
-
-.navbar-inverse .navbar-nav > .active > a,
-.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav li > a {
+  color: #f2f2c4;
+}
+.navbar-inverse .navbar-nav > .active > a {
+  background: #c14a46;
+  color: #f2f2c4;
+}
+.navbar-inverse .navbar-nav > .active > a:hover {
+  background: #c14a46;
+  color: #f2f2c4;
+}
 .navbar-inverse .navbar-nav > .active > a:focus {
-    color: #fff;
-    background: #1A237E;
+  background: #c14a46;
+  color: #f2f2c4;
+}
+.navbar-inverse .navbar-nav > .open > a {
+  background: #c14a46;
+  color: #f2f2c4;
 }
 
-.navbar-inverse .navbar-nav > .open > a,
- .navbar-inverse .navbar-nav > .open > a:hover,
- .navbar-inverse .navbar-nav > .open > a:focus {
-    color: #fff;
-    background: #1A237E;
+.navbar-inverse .navbar-nav > .open > a:hover {
+  background: #c14a46;
+  color: #f2f2c4;
 }
-
-.navbar-inverse .navbar-nav .open .dropdown-menu> li> a,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  background: #c14a46;
+  color: #f2f2c4;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+  background-color: #c14a46;
+  color: #f2f2c4;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+  color: #c14a46;
+}
 .navbar-inverse .navbar-nav .open .dropdown-menu {
-    background-color: #303F9F;
-    color:#eeeeee;
+  background-color: #c14a46;
+  color: #f2f2c4;
 }
-
-.navbar-inverse .navbar-nav .open .dropdown-menu> li> a:hover {
-    color:#000000;
+ul > li > a, .plain-text {
+    color: #f2f2c4;
 }
-
+address {
+  color: #0f0f0f;
+  font-size: 80%;
+  margin: 0px;
+}
+body {
+  align: center;
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
+  background-color: #f2f2c4;
+}
 .tab-content {
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    padding: 10px;
+  border-bottom: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  padding: 10px;
+  background-color: white;
 }
-
+.nav-tabs>li>a,
+.nav-tabs>li>a:hover {
+    color: black;
+}
+.nav-tabs>li>a:hover {
+    background-color: transparent;;
+}
 .affix {
-    top:100px;
+  top: 100px;
+}
+#carouselButtons {
+  bottom: 0px;
+  position: absolute;
+  right: 0px;
 }

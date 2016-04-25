@@ -1,0 +1,30 @@
+{
+  "name": "confusion",
+  "authors": [
+    "Ludmila"
+  ],
+  "description": "Restaurant Website",
+  "main": "index.html",
+  "keywords": [
+    "conFusion",
+    "Restaurant",
+    "Website",
+    "Test",
+    "page",
+    "Bootstrap"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.3",
+    "font-awesome": "^4.6.1"
+  }
+}
